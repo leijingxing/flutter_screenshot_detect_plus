@@ -1,3 +1,7 @@
+## 1.0.1
+
+* Update package repository metadata to the public GitHub repository.
+
 ## 1.0.0
 
 * Align package name and iOS podspec with local package usage.
