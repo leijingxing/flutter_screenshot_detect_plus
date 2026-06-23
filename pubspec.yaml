@@ -1,0 +1,27 @@
+name: flutter_screenshot_detect_plus
+description: "A local Flutter plugin for Android and iOS screenshot detection."
+version: 1.0.0
+repository: https://github.com/leijingxing/flutter_screenshot_detect_plus
+
+environment:
+  sdk: ^3.5.2
+  flutter: '>=3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.1.8
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.ss.detect
+        pluginClass: FlutterScreenshotDetectPlugin
+      ios:
+        pluginClass: FlutterScreenshotDetectPlugin
